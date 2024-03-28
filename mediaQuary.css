@@ -1,0 +1,241 @@
+@media only screen and (max-width: 768px) {
+
+    /* <!------------------------------------------Navbar Start ------------------------------------------> */
+    .navbar {
+        justify-content: space-between;
+        padding: 0 10vw;
+    }
+
+    .navLogo img {
+        width: 15vw;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        height: calc(100vh - 10vh);
+        justify-content: space-evenly;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* <!------------------------------------------Navbar End ------------------------------------------> */
+
+    /* <!------------------------------------------Main Start ------------------------------------------> */
+    .para p {
+        margin: 2vw 0 3.5vw 0;
+    }
+
+    .button {
+        width: 18vw;
+        height: 6vw;
+    }
+
+    .button button {
+        font-size: 1.8vw;
+    }
+
+    .buttonLogo {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    /* <!------------------------------------------Main End ------------------------------------------> */
+
+    /* <!------------------------------------------Service Container Start ------------------------------------------> */
+    .serviceContent {
+        margin-bottom: 3vw;
+    }
+
+    .serviceContent h1 {
+        font-size: 4.1vw;
+    }
+
+    .serviceContent p {
+        font-size: 2vw;
+    }
+
+    .arrow img {
+        width: 2.2vw;
+    }
+
+    .rightArrow {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .box .boxHeading h1 {
+        font-size: 1.8vw;
+    }
+
+    .boxMeanContent h1 {
+        font-size: 2.4vw;
+        padding: 16px;
+    }
+
+    .serviceBoxes {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .box {
+        width: 30vw;
+        height: 40vw;
+        margin: 2vw 0;
+    }
+
+    .box .boxMeanContent img {
+        width: 25vw;
+    }
+
+    #box2 .boxMeanContent img {
+        width: 23vw;
+    }
+
+    #box3 .boxMeanContent img {
+        width: 18.9vw;
+    }
+
+    #box3 .boxMeanContent h1 {
+        padding: 3vw;
+    }
+
+    #box4 .boxMeanContent img {
+        width: 25vw;
+    }
+
+    #box4 .boxMeanContent h1 {
+        padding: 0;
+        padding-top: 3.8vw;
+    }
+
+    .boxButton {
+        height: 7.6vw;
+    }
+
+    .boxButton .button {
+        width: 11vw;
+        height: 4.5vw;
+    }
+
+    .boxButton .button button {
+        font-size: 1.5vw;
+    }
+
+    .boxButton .buttonLogo {
+        width: 2.4vw;
+        height: 2.4vw;
+    }
+
+    .boxButton .buttonLogo img {
+        width: 1.5vw;
+    }
+
+    /* <!------------------------------------------Service Container End ------------------------------------------> */
+    
+    /* <!------------------------------------------Footer End ------------------------------------------> */
+
+    .footerLogo img{
+        width: 12vw;
+    }
+    .footerCopyRight p{
+        font-size: 1.8vw;
+    }
+
+    /* <!------------------------------------------Footer End ------------------------------------------> */
+}
+
+@media only screen and (max-width: 427px) {
+    .navLogo img {
+        width: 22vw;
+    }
+    .nav-link {
+        font-size: 5vw;
+    }
+
+    /* <!------------------------------------------Main Start------------------------------------------> */
+    .heading h1 {
+        font-size: 9vw;
+        line-height: 12vw;
+        width: 87vw;
+    }
+
+    .para p {
+        width: 62vw;
+        margin: 4vw 0 5.5vw 0;
+    }
+
+    .button {
+        width: 30vw;
+        height: 9vw;
+        border-radius: 7vw;
+    }
+
+    .button button {
+        font-size: 2.8vw;
+    }
+
+    .buttonLogo {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .buttonLogo img {
+        width: 2vw;
+    }
+
+    /* <!------------------------------------------Main End ------------------------------------------> */
+
+    /* <!------------------------------------------Service container End ------------------------------------------> */
+    .box {
+        width: 34vw;
+        height: 46vw;
+    }
+    
+    .boxButton {
+        height: 6.6vw;
+    }
+    
+    #box4 .boxMeanContent h1 {
+        padding: 0;
+        padding-top: 7.8vw;
+    }
+    #box3 .boxMeanContent h1 {
+        padding: 5vw;
+    }
+    /* <!------------------------------------------Service container start ------------------------------------------> */
+}
