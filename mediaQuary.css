@@ -223,19 +223,30 @@
     /* <!------------------------------------------Service container End ------------------------------------------> */
     .box {
         width: 34vw;
-        height: 46vw;
+        height: 50vw;
     }
     
     .boxButton {
-        height: 6.6vw;
+        height: 7.8vw;
     }
     
     #box4 .boxMeanContent h1 {
         padding: 0;
-        padding-top: 7.8vw;
+        padding-top: 10.8vw;
     }
     #box3 .boxMeanContent h1 {
-        padding: 5vw;
+        padding: 6vw;
+    }
+    .boxMeanContent h1 {
+        font-size: 2.4vw;
+        padding: 23px;
     }
     /* <!------------------------------------------Service container start ------------------------------------------> */
+}
+
+@media only screen and (max-width: 376px) {
+    .boxMeanContent h1 {
+        font-size: 2.4vw;
+        padding: 19px;
+    }
 }
